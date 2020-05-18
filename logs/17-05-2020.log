@@ -1,0 +1,63 @@
+[17/05/2020 04:47][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 05:07][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"limit":1000}
+[17/05/2020 05:07][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado"}
+[17/05/2020 05:08][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"1000"}
+[17/05/2020 05:08][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"fjf"}
+[17/05/2020 05:09][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 16:28][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 16:33][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 16:35][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 16:36][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 16:58][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 16:59][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:04][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:06][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:06][ERROR]: {"message":"validation_fails","statusCode":422}
+[17/05/2020 17:14][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:14][ERROR]: {"message":"validation_fails","error":{"name":"ValidationError","value":{"limit":null,"search":"cadeado"},"errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."},"statusCode":422}
+[17/05/2020 17:15][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:15][ERROR]: {"message":"validation_fails","error":{"name":"ValidationError","value":{"limit":null,"search":"cadeado"},"errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."},"statusCode":422}
+[17/05/2020 17:15][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:15][ERROR]: {"message":"validation_fails","error":{"name":"ValidationError","value":{"limit":null,"search":"cadeado"},"errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."},"statusCode":422}
+[17/05/2020 17:16][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":1222,"limit":"aaa"}
+[17/05/2020 17:16][ERROR]: {"message":"validation_fails","error":{"name":"ValidationError","value":{"limit":null,"search":"1222"},"errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."},"statusCode":422}
+[17/05/2020 17:16][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:16][ERROR]: {"message":"validation_fails","error":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"statusCode":422}
+[17/05/2020 17:16][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:16][ERROR]: {"message":"validation_fails","error":{"name":"ValidationError","value":{"limit":null,"search":"cadeado"},"errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."},"statusCode":422}
+[17/05/2020 17:18][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":"aaa"}
+[17/05/2020 17:18][ERROR]: {"message":"validation_fails","error":[{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"statusCode":422}
+[17/05/2020 17:18][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":null,"limit":"aaa"}
+[17/05/2020 17:18][ERROR]: {"message":"validation_fails","error":[{"name":"ValidationError","value":null,"path":"search","type":"typeError","errors":["search must be a `string` type, but the final value was: `null`.\n If \"null\" is intended as an empty value be sure to mark the schema as `.nullable()`"],"inner":[],"message":"search must be a `string` type, but the final value was: `null`.\n If \"null\" is intended as an empty value be sure to mark the schema as `.nullable()`","params":{"path":"search","value":null,"originalValue":null,"type":"string"}},{"name":"ValidationError","value":null,"path":"limit","type":"typeError","errors":["limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`)."],"inner":[],"message":"limit must be a `number` type, but the final value was: `NaN` (cast from the value `\"aaa\"`).","params":{"path":"limit","value":null,"originalValue":"aaa","type":"number"}}],"statusCode":422}
+[17/05/2020 17:19][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:19][ERROR]: {"message":"Request failed with status code 404","name":"Error","stack":"Error: Request failed with status code 404\n    at createError (/home/joedyson/Desktop/mundiale-challenge/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/joedyson/Desktop/mundiale-challenge/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/joedyson/Desktop/mundiale-challenge/node_modules/axios/lib/adapters/http.js:236:11)\n    at IncomingMessage.emit (events.js:333:22)\n    at endReadableNT (_stream_readable.js:1220:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","config":{"url":"https://lista.mercadolivre.com.br/cadeado_Desde_816","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.2"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}}
+[17/05/2020 17:19][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":10}
+[17/05/2020 17:19][ERROR]: {"message":"getaddrinfo ENOTFOUND lista.mercadolivre.com.br","name":"Error","stack":"Error: getaddrinfo ENOTFOUND lista.mercadolivre.com.br\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)","config":{"url":"https://lista.mercadolivre.com.br/cadeado","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.2"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1},"code":"ENOTFOUND"}
+[17/05/2020 17:21][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":10}
+[17/05/2020 17:21][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:28][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"123joedyson123","limit":1000}
+[17/05/2020 17:29][ERROR]: {"message":"products_not_found","error":"","statusCode":422}
+[17/05/2020 17:29][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:29][ERROR]: {"message":"products_not_found","error":"","statusCode":422}
+[17/05/2020 17:29][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:43][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:44][ERROR]: {}
+[17/05/2020 17:44][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:48][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:48][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:49][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:52][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"cadeado","limit":1000}
+[17/05/2020 17:53][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 17:53][ERROR]: {}
+[17/05/2020 17:56][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 17:56][ERROR]: {}
+[17/05/2020 17:56][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 17:56][ERROR]: {}
+[17/05/2020 17:56][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 17:56][ERROR]: {}
+[17/05/2020 17:57][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 17:57][ERROR]: {"message":"products_not_found","error":"","statusCode":422}
+[17/05/2020 18:01][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 18:01][ERROR]: {}
+[17/05/2020 18:01][POST]: Url - /products | User -  IP:::ffff:127.0.0.1 | body - {"search":"joedyson11222","limit":1000}
+[17/05/2020 18:01][ERROR]: {"message":"products_not_found","error":"","statusCode":422}
